@@ -1,0 +1,118 @@
+
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: #333;
+}
+
+.titulo {
+    text-align: center;
+    padding: 32px;
+    background: #f9f9f9;
+}
+
+.titulo h1 {
+    font-size: 65.34px;
+    margin-bottom: 16px;
+}
+
+.botones {
+    margin-top: 16px;
+}
+
+.boton {
+    padding: 0.5rem 1rem;
+    margin: 0.5 rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.boton.joinnow {
+    background-color: #285E67;
+    color: white;
+}
+
+.boton.yellow {
+    background-color: #ffcc66;
+    color: white;
+}
+
+.images-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.images-section img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.info {
+    text-align: left;
+    padding: 80px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.info-box {
+    width: 45%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.products {
+    display: flex;
+    padding: 2rem;
+    background: #f9f9f9;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info {
+    padding: 0 2rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #333;
+    color: #fff;
+}
+
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
